@@ -2,7 +2,6 @@
 
 import { useRouter, useSearchParams  } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { LocalStorageService } from "../storage/storage.dream";
 
 export default function SuccessPage() {

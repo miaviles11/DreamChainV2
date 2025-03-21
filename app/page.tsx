@@ -5,11 +5,8 @@ import { Button } from "./components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Gift, Users, LineChart, Github, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 import { Team } from "@/components/ui/team";
 import { Testimonials } from "@/components/ui/testimonials"; // Importa el componente de testimonios
-import { readContract } from "viem/_types/actions/public/readContract";
-import { DreamDeployed } from "./service/service.contract.dream";
 import Header from "./components/ui/Header";
 
 function DreamChainLanding() {

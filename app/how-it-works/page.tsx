@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { BookOpen, Users, Target, Shield, Globe, Eye } from "lucide-react";
+import { BookOpen, Users, Target } from "lucide-react";
 import Link from "next/link";
 import Footer from "@/components/ui/footer";
 import Image from "next/image";

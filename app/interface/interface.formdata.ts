@@ -1,4 +1,3 @@
-import { Numeric } from "ethers";
 
 export interface Contract {
 	dir_contract: string
