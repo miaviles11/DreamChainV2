@@ -18,11 +18,7 @@ export interface User {
   user: string,
 }
 
-export enum LoginError {
-  INVALID_CREDENTIAL,
-  NOTFOUND_USER,
-  SERVER_ERROR
-}
+
 export default function UserProfile() {
   const [loading, setLoading] = useState(false);
   const [loged, setLoged] = useState(false);
