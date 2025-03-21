@@ -9,7 +9,7 @@ import Image from "next/image";
 import { AuthService } from "../service/service.auth";
 import { useEffect, useState } from "react";
 import { SessionService } from "../service/service.session";
-import { Loader, Router } from "lucide-react";
+import { Loader } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export interface User {

@@ -1,13 +1,4 @@
-import { createPublicClient, createWalletClient, getAbiItem, http, parseAbi } from "viem"
-import { arbitrumSepolia } from "viem/chains"
-import { privateKeyToAccount } from "viem/accounts"
 import "dotenv/config"
-import { exit } from "process"
-import { log } from "console"
-import type { NextApiRequest, NextApiResponse } from 'next';
-import fs from 'fs';
-import path from 'path';
-
 import { ethers } from "ethers";
 import * as dotenv from "dotenv";
 
