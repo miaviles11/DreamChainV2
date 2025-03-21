@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+	"preinstall": "python3 -m pip install setuptools"
   },
   "dependencies": {
     "ethers": "^6.13.4",
