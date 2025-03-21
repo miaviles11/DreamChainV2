@@ -1,4 +1,4 @@
-# DreamChain V2: Transformando Sueños en Realidad
+# DreamChain V: Transformando Sueños en Realidad
 
 `DreamChain` transforma metas, sueños y objetivos personales en contratos inteligentes respaldados por blockchain, conectando soñadores con mentores y financiadores. Promueve la colaboración global para empoderar a las personas y convertir sueños en realidades tangibles.
 
