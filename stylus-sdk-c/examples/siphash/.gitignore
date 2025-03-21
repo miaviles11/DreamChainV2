@@ -1,3 +1,0 @@
-*.o
-siphash.wasm
-siphash_unstripped.wasm

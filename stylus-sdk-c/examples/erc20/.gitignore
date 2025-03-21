@@ -1,6 +1,0 @@
-*.o
-*.wasm
-
-interface-gen/
-build/
-
