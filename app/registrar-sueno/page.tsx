@@ -8,8 +8,11 @@ import { Button } from "../components/ui/button";
 import { Label } from "../components/ui/label";
 import { Upload, Target, Gift, Sparkles, Loader } from "lucide-react";
 import Footer from "@/components/ui/footer";
+import Image from "next/image";
+import Link from "next/link";
 import { LocalStorageService } from "../storage/storage.dream";
 import { DeployDream } from "../service/service.deploy.dream";
+import { DreamDeployed } from "../service/service.contract.dream";
 import { Dream } from "../interface/interface.formdata";
 import Header from "@/components/ui/Header";
 

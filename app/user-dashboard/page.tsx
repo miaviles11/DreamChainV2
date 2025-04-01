@@ -1,10 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { Sidebar, SidebarHeader, SidebarContent, SidebarMenu, SidebarMenuItem } from "@/components/ui/sidebar";
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@/components/ui/table";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
+import { ethers } from "ethers";
 
 export default function UserDashboard() {
   // Estado para manejar la cuenta conectada

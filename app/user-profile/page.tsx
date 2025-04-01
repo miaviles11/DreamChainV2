@@ -12,7 +12,7 @@ import { SessionService } from "../service/service.session";
 import { Loader } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-export interface User {
+interface User {
   password?: string,
   email: string,
   user: string,
